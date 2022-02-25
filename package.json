@@ -1,0 +1,27 @@
+{
+  "name": "micro-catalog-admin",
+  "version": "1.0.0",
+  "description": "Administration microservice to upload video files (movies, series, documentaries, etc.) to a Cloud Provider",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "tsc": "tsc",
+    "clean:tsc": "rm tsconfig.tsbuildinfo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo3g/codeflix-catalog-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardo3g/codeflix-catalog-admin/issues"
+  },
+  "homepage": "https://github.com/eduardo3g/codeflix-catalog-admin#readme",
+  "devDependencies": {
+    "@types/node": "14.14.31",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
